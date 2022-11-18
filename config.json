@@ -1,0 +1,1 @@
+{"input": "./frames/chainsawmanshort30/frame*.jpg", "shapeTypes": "triangle", "alpha": 255, "iterations": 5, "candidateShapesPerStep": 5, "shapeMutationsPerStep": 5, "format": "json", "output": "./frames/chainsawmanshort30/jsons"}
