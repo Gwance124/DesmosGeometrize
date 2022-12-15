@@ -12,7 +12,7 @@ def get_cli_parameters(argv):
     
     # gets user input and resolution parameters
     try:
-        opts, args = getopt.getopt(argv, "hi:r:a:I:s:m:", ["I=", "r=", "a=", "i=", "s=", "m="])
+        opts, args = getopt.getopt(argv, "hi:r:a:I:s:m:", ["i=", "r=", "a=", "I=", "s=", "m="])
     except getopt.GetoptError:
         print('geodeezmos.py -i <input> -r <resolution> -a <alpha> -I <iterations> -s <shapes per step> -m <mutations per step>')
         sys.exit(2)
